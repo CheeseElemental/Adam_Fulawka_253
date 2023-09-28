@@ -15,14 +15,14 @@ function preload() {
 
 }
 
-
 /**
  * Description of setup
 */
 function setup() {
 
 }
-
+createCanvas(800, 600);
+background(255, 0, 255);
 
 /**
  * Description of draw()
