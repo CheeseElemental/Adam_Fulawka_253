@@ -16,7 +16,7 @@ let covid19 = {
     size: 100,
     vx: 0,
     vy: 0,
-    speed: 60,
+    speed: 30,
     fill: {
         r: 255,
         g: 0,
