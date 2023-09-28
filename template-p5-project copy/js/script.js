@@ -8,21 +8,23 @@
 
 "use strict";
 
+let img;
+
 /**
  * Description of preload
 */
 function preload() {
 
-}
+    img = loadImage('assets/images/clown.png');
 
+  }
 /**
  * Description of setup
 */
 function setup() {
-createCanvas(800, 600);
+    image(img, 0, 0);
 }
 
-background(255, 0, 255);
 
 /**
  * Description of draw()
